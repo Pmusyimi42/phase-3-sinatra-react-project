@@ -12,4 +12,8 @@ end
 use Rack::JSONBodyParser
 
 # Our application
+use AuthorsController
+use CommentsController
+use UsersController
+use QuotesController
 run ApplicationController
